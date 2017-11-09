@@ -1,0 +1,175 @@
+
+html, body 
+{
+    height: auto;
+}
+
+body 
+{
+    color: black;
+    background-image: url(arriere.jpg);
+    font-family: 'Futura-Medium', 'Futura', 'Trebuchet MS', sans-serif;
+}
+
+h1 
+{
+    color: black;
+}
+
+/*encadré en tete*/
+
+header p
+{
+  width:100%;
+  height:60px;
+  text-align:center;
+  margin:auto;
+}
+
+
+/*Contenu centre*/
+.extraitTitre
+{
+  text-align:center;
+}
+
+
+.titreBillet 
+{
+    margin-bottom : 0px;
+}
+
+
+#global 
+{
+    width : 900px;
+    margin : auto;
+    text-align: center;
+    height:auto;
+}
+
+article header
+{
+    text-align:center;
+}
+#titreBlog, #piedBlog {
+    text-align: center;
+  }
+
+#contenu
+{
+    margin : 9px;
+    width : 600px;
+    height : auto;  
+    float:left;
+    text-align:left;
+    min-height:460px;
+}
+
+#commentaire_form
+{
+    min-height:410px;
+}
+#commentaires
+{
+    text-align:left;
+    min-height:470px;
+}
+/*Alignement des boutons formulaire*/
+form
+{
+    display:inline-block;
+}
+
+article
+{
+  text-align:left;
+}
+#contenu .numeroBillet
+{
+  text-align:center;
+}
+#contenu p
+{
+  font-size : 0.8em;
+}
+a:link
+{
+  text-decoration:none;
+}
+
+/*Menu côté droit*/
+
+#bloc_droite
+{
+    float:right;
+    width: 200px;
+    margin-top:60px;
+    background-color: #685959;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    height:auto;
+}
+
+.extraitTitre
+{
+  text-align:center;
+}
+
+/*Pied-de-Page*/
+
+footer
+{
+  clear:both;
+  bottom:0;
+  width:100%;
+  /*position:absolute;*/
+}
+/*Barre de Menu*/
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li 
+{
+  display:inline-block;
+  text-align:center;
+}
+
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover 
+{
+    background-color: #111;
+}
+/*Formulaire de contact*/
+
+#contact_form
+{
+  text-align:center;
+}
+
+/* taille des images */
+img
+{
+  width:200px;
+}
+
+
+
+
